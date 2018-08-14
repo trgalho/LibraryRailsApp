@@ -1,2 +1,2 @@
-# firstRailsApp
+# LibraryRailsApp
 Exercício em Rails
