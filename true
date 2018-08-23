@@ -1,0 +1,6 @@
+      invoke  active_record
+      create    db/migrate/20180814133818_create_client_books.rb
+      create    app/models/client_book.rb
+      invoke    test_unit
+      create      test/models/client_book_test.rb
+      create      test/fixtures/client_books.yml

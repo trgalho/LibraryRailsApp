@@ -1,0 +1,28 @@
+<p id="notice"><%= notice %></p>
+
+<div class="bookCover">
+	<img src="<%=@book.image %>">
+</div>
+<div class="bookDescription">
+<p>
+  <strong>Title:</strong>
+  <%= @book.title %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @book.year %>
+</p>
+
+<p>
+  <strong>Author:</strong>
+  <%= @book.author.name %>
+</p>
+<p>
+  <strong>Image:</strong>
+  <%= @book.image %>
+</p>
+
+<%= link_to 'Edit', edit_book_path(@book) %> |
+<%= link_to 'Back', books_path %>
+</div>
